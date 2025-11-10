@@ -1,0 +1,52 @@
+Compito 3 – Task, Storyboard e Primi Prototipi 
+Scadenza: 17 Novembre 2025
+
+Descrizione
+Questo compito vi chiede di descrivere i tasks principali su cui il vostro progetto si basa, e definire i primi prototipi dell'interfaccia utente, coerentemente alla soluzione e alla proposta di valore definite nel Compito 2. 
+
+Task e Storyboard
+
+1) Selezionate 3 tasks. Devono essere il fulcro della soluzione e della proposta di valore del progetto, come da Compito 2. A partire dalle personas e dagli scenari definiti per il Compito 2, individuate i problemi/bisogni principali e come la vostra soluzione aiuta a risolverli/soddisfarli. A questi corrisponderanno i 3 task su cui dovrete concentrarvi. Dovreste avere 1 task semplice, 1 task moderato e 1 task complesso. Ricordate che un task descrive il comportamento dell'utente, non le funzionalità del sistema.
+
+2) HTA per i task selezionati. Specificate la scomposizione dei task secondo il metodo della HTA visto a lezione. Provate inoltre a definire una TDH per gli oggetti e le azioni principali.
+
+3) Create uno storyboard. Pensate a come la vostra narrazione intreccerà i tre compiti individuati al punto precedente: lo storyboard dovrà rappresentare almeno due dei task individuati e deve essere rappresentato con fumetti. Deve includere da 4 a 8 pannelli e adattarsi a un foglio A4. Cercate di rimanere all'interno di un foglio e usatene un secondo se e solo se avete davvero bisogno di spazio! Fate attenzione a convogliare le idee senza concentrarvi troppo sui dettagli.
+
+
+Prototipi 
+  
+1) Fate brainstorming su modi diversi per realizzare la vostra soluzione. Esplorate almeno due diverse modalità ( Web app? agente conversazionale? tablet? smartwatch? smart glasses? wearable? ecc.) per realizzare l’obiettivo narrato nello storyboard. Una modalità è un modo di interagire o un tipo di dispositivo. Descrivete le due modalità scelte e perché le avete selezionate. 
+
+2) Definite due prototipi (wireframe) con Figma. Create un prototipo per ogni modalità scelta. Ognuno deve essere chiaramente collegato alla proposta di valore, e deve basarsi sullo storyboard e sui tre task individuati nell’attività precedente.
+Ricordate che un wireframe mostra concretamente gli elementi fondamentali, le principali funzionalità, le principali "schermate" di un'interfaccia utente e deve facilitare l’ideazione rapida. 
+Concentratevi sui concetti, sull'architettura dell'informazione, sulle funzionalità principali, e non sui pixel che rappresentano  l'ombra di un bottone. In questa fase, i prototipi devono essere in bianco e nero, poiché non è necessario (né si vuole) concentrarsi (ancora) sull'estetica del visual design.
+I prototipi realizzati dovrebbero essere sufficientemente completi da consentire ai docenti di comprendere l'essenza dell'applicazione e di guidare un ipotetico nuovo utente attraverso ciascuno dei tre compiti. I piccoli dettagli non sono importanti in questo momento (per esempio, la pagina sulla privacy) e non hanno bisogno di essere inclusi. Dovranno essere esemplificati i cammini più significativi.
+
+3) Scegliete il prototipo migliore per andare avanti. Fate un elenco di pro e contro  per ogni prototipo, sceglietene uno e fornite le motivazioni della vostra scelta: potrebbero derivare dalla conoscenza degli utenti target, da una rapida prova con 1-2 persone, da quanto bene il prototipo copre i tre compiti individuati, da un ragionamento o una intuizione  progettuale motivata  (es.: secondo alcune linee guida o  principi), o da una combinazione di  questi fattori.
+Se ha senso, si può anche prendere in considerazione lo spostamento di alcune funzionalità dal prototipo scartato a quello selezionato (es., se ciò riduce alcuni svantaggi del prototipo selezionato). In questo caso, tenete traccia di tutte le modifiche che si prevede di eseguire.
+
+Cosa dovete consegnare
+Sul sito Web di Progetto caricate, entro la scadenza stabilita, le slide e il link ai prototipi in FIGMA. 
+
+Le slide devono contenere:
+1) Introduzione
+  1.1) Titolo del progetto e membri del team
+  1.2) Value prosition 
+1.3) Panoramica del problema/soluzione
+2) Task e storyboard
+  2.1) Elenco e specifica (HTA, eventualmente TDH) dei task semplici, moderati e complessi
+  2.2) Storyboard e spiegazione dei punti di forza e di debolezza e di quanto bene la soluzione a cui avete pensato permette all’utente di raggiunge l'obiettivo e le esigenze identificate
+3) Esplorazione delle modalità 
+3.1) Panoramica delle modalità/dispositivi alternativi che avete preso in considerazione
+3.2) Presentate le due alternative selezionate e le motivazioni per la scelta
+4) Prototipo #1
+4.1) Includete il flusso di alto livello dei passi di interazione del prototipo 1
+4.2) Come si collega allo storyboard e ai tre task?
+5) Prototipo #2
+5.1) Includete il flusso di alto livello dei passi di interazione del prototipo 2
+5.2) Come si collega allo storyboard e ai tre task?
+6) Scelta di un prototipo
+6.1) Segnalate i principali pro e contro per ogni prototipo
+6.2) Quale dei due prototipi avete scelto?
+6.3) Fornite la motivazione della scelta
+6.4) Spiegate i motivi di eventuali spostamenti di feature da un prototipo all'altro; elencate le modifiche questi spostamenti richiedono
