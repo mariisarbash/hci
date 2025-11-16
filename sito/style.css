@@ -1,0 +1,498 @@
+/* ================================================
+   RESET E CONFIGURAZIONE GLOBALE
+   ================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #e5e0d8;
+    color: #545454;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* ================================================
+   NAVBAR IN STILE APPLE
+   ================================================ */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(229, 224, 216, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    z-index: 1000;
+    border-bottom: 1px solid rgba(112, 138, 88, 0.1);
+}
+
+.nav-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #2d4f2b;
+    letter-spacing: -0.02em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.nav-links a {
+    color: #545454;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #2d4f2b;
+}
+
+/* ================================================
+   TIPOGRAFIA
+   ================================================ */
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #2d4f2b;
+    letter-spacing: -0.02em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2d4f2b;
+    margin-bottom: 40px;
+    letter-spacing: -0.01em;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d4f2b;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #708a58;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #2d4f2b;
+}
+
+/* ================================================
+   SEZIONE 1: HERO
+   ================================================ */
+
+#hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 44px;
+}
+
+.hero-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.hero-left {
+    flex: 1;
+    text-align: left;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-image {
+    width: 420px;
+    height: auto;
+    max-width: 100%;
+}
+
+.brand-text {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #708a58;
+    font-weight: 300;
+    margin-top: 25px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 14px 32px;
+    background: #708a58;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(112, 138, 88, 0.3);
+}
+
+.cta-button:hover {
+    background: #2d4f2b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(45, 79, 43, 0.4);
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ================================================
+   SEZIONE 2: PROGETTO
+   ================================================ */
+
+#progetto {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#progetto h2 {
+    margin-bottom: 50px;
+}
+
+.description {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: #545454;
+}
+
+/* ================================================
+   SEZIONE 3: TIMELINE
+   ================================================ */
+
+#timeline {
+    padding: 100px 0 120px;
+    text-align: center;
+}
+
+#timeline h2 {
+    margin-bottom: 80px;
+}
+
+.timeline-wrapper {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #708a58;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 60px;
+    opacity: 0;
+    animation: slideIn 0.6s ease-out forwards;
+}
+
+.timeline-item:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.timeline-item:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.timeline-item:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.timeline-item:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.timeline-item:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.timeline-content {
+    width: 45%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.timeline-item.left .timeline-content {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.timeline-item.right .timeline-content {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: #2d4f2b;
+    border: 4px solid #e5e0d8;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 0 0 4px rgba(112, 138, 88, 0.2);
+}
+
+.timeline-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ================================================
+   SEZIONE 4: TEAM
+   ================================================ */
+
+#team {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#team h2 {
+    margin-bottom: 60px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.team-member-card {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 40px 30px;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.team-member-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.member-photo {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, #708a58 0%, #2d4f2b 100%);
+    border-radius: 50%;
+    margin: 0 auto 25px;
+    border: 4px solid rgba(45, 79, 43, 0.1);
+}
+
+.team-member-card h3 {
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+.role {
+    color: #708a58;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* ================================================
+   SEZIONE 5: FOOTER
+   ================================================ */
+
+#contatti {
+    padding: 60px 0;
+    text-align: center;
+    border-top: 1px solid rgba(112, 138, 88, 0.2);
+}
+
+#contatti p {
+    font-size: 0.95rem;
+    color: #708a58;
+}
+
+/* ================================================
+   RESPONSIVE DESIGN
+   ================================================ */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .logo-image {
+        width: 90px;
+    }
+
+    .brand-text {
+        max-width: 350px;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        padding: 0 20px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    /* Timeline responsive */
+    .timeline-line {
+        left: 20px;
+    }
+
+    .timeline-content {
+        width: calc(100% - 60px);
+        margin-left: 60px !important;
+        margin-right: 0 !important;
+    }
+
+    .timeline-dot {
+        left: 20px;
+    }
+
+    /* Team grid responsive */
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    #progetto,
+    #timeline,
+    #team {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .logo-image {
+        width: 70px;
+    }
+
+    .brand-text {
+        max-width: 280px;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+}
